@@ -138,11 +138,16 @@ nav a:hover::before {
     padding-bottom: 40px;
 }
 
+.project-container a {
+    border: 1px solid red;
+    width: 40%;
+    margin: 5px;
+    text-decoration: none;
+}
+
 .project {
     border: 1px solid white;
     text-align: center;
-    width: 40%;
-    margin: 5px;
     color: black;
 }
 .project > img {
@@ -189,3 +194,20 @@ nav a:hover::before {
     color: white;
 }
 
+@media only screen and (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+
+    .main-container {
+        top: 20px;
+    }
+
+    .welcome h1 {
+        font-size: 34pt;
+    }
+
+    .welcome div {
+        font-size: 24pt;
+    }
+}
