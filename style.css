@@ -149,3 +149,37 @@ nav a:hover::before {
     width: 100%;
 }
 
+#profiles {
+    background: linear-gradient(-115deg, #3D7FBF, #85B6E5);
+    top: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.profile {
+    padding: 20px;
+    background-color: #FFC065;
+    border-radius: 50%;
+    border: 5px solid #FFA31E;
+}
+
+.profile a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile:hover {
+    background-color: #FFA31E;
+}
+
+.profile:hover a {
+    color: white;
+}
+
