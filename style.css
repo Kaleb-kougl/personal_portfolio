@@ -124,11 +124,28 @@ nav a:hover::before {
 }
 
 #projects {
-    background: linear-gradient(#FF9765, #FFD1BB);
-    display: flex;
+    background: linear-gradient(115deg, #FF8144, #FFD1BB);
+    text-align: center;
+    font-size: 26pt;
 }
 
-/* .projects-container {
+.project-container {
     display: flex;
-    flex-direction: column;
-} */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    padding-bottom: 40px;
+}
+
+.project {
+    border: 1px solid white;
+    text-align: center;
+    width: 40%;
+    margin: 5px;
+    color: black;
+}
+.project > img {
+    width: 100%;
+}
+
