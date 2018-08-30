@@ -154,6 +154,11 @@ nav a:hover::before {
     top: 0;
     padding: 10px;
     text-align: center;
+    font-size: 26pt;
+}
+
+.profiles-sections-tag h4 {
+    font-size: 23pt;
 }
 
 .profile-container {
@@ -167,12 +172,13 @@ nav a:hover::before {
     padding: 20px;
     background-color: #FFC065;
     border-radius: 50%;
-    border: 5px solid #FFA31E;
+    box-shadow: 2px 2px 5px 4px #FFA31E;
 }
 
 .profile a {
     text-decoration: none;
     color: black;
+    font-size: 20pt;
 }
 
 .profile:hover {
