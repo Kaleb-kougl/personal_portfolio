@@ -210,4 +210,21 @@ nav a:hover::before {
     .welcome div {
         font-size: 24pt;
     }
+  
+    .profile-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .profile {
+      margin-top: 40px;    
+    }
+  
+    .project-label {
+      font-size: 10pt;
+    }
+  
+    body {
+      background-size: auto;
+     }
 }
